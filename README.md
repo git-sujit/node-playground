@@ -1,4 +1,4 @@
-# Run the App
+# Install all node modules mentioned in package.json
 
     - npm install
 
@@ -20,3 +20,11 @@
 # List All Notes
 
     - node app.js list
+
+# Node debug tools
+    - 1. console.log
+    - 2. node inspect + chrome V8 (Debug point)
+        - e.g: node inspect app.js add --title="name" --body="Ram Adam Singh"
+        - chrome://inspect
+        - Click on inspect
+        - Set the debug point and proceed debugging
